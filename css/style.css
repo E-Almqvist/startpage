@@ -48,10 +48,6 @@ article {
 	justify-content: center;
 }
 
-.center article {
-	display: block;
-}
-
 #main_wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
