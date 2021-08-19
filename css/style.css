@@ -39,16 +39,20 @@ article {
 
 
 .border {
-	border: 2px solid #fefefe22;
+	border: 2px solid #fefefe0f;
+	background-color: #fefefe05;
 }
 
 .center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	position: relative;
 }
 
 #main_wrapper {
+	position: absolute;
+	top: 50%;
+	margin-top: 35vh;
+	width: 50vw;
+	height: 70vh;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
