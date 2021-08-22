@@ -2,14 +2,14 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: #fefefe;
+	color: #111015;
 	font-family: monospace;
 	font-size: 1.4rem;
 	text-align: center;
 }
 
 html {
-	background-color: #111015;
+	background-color: #fefefe;
 	width: 100vw;
 	height: 100vh;
 }
@@ -31,7 +31,7 @@ h2 {
 a { 
 	padding: 5px;
 	text-decoration: none; 
-	color: #fefefecc; 
+	opacity: 0.5;
 }
 a:hover { 
 	transition-duration: 0.2s;
@@ -81,7 +81,7 @@ article, .border {
 }
 
 #author {
-	color: #fefefe9a;
+	opacity: 0.4;
 	font-size: 0.7rem;
 	font-style: italic;
 }
