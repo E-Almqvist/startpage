@@ -10,8 +10,8 @@
 
 html {
 	background-color: #111015;
-	max-width: 100vw;
-	max-height: 100vh;
+	width: 100vw;
+	height: 100vh;
 }
 
 ul {
@@ -32,30 +32,31 @@ a:hover {
 	color: #5f819d; 
 }
 
-article {
-	margin: 2rem;
-	padding: 1rem;
-}
-
+article { padding: 5px; }
 
 .border {
 	border: 2px solid #fefefe0f;
 	background-color: #fefefe05;
 }
 
-.center {
+.container {
 	position: relative;
 }
 
-#main_wrapper {
+.vert_center {
+	margin: 0;
 	position: absolute;
 	top: 50%;
-	margin-top: 35vh;
-	width: 50vw;
-	height: 70vh;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-ms-transform: translateY(-50%) translateX(-50%);
+}
+
+#content_wrapper {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-gap: 8rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-areas: 
 		"hea hea"
 		"gen soc"
