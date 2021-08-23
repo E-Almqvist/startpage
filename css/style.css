@@ -2,14 +2,14 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: #111015;
+	color: #fefefe;
 	font-family: monospace;
 	font-size: 1.4rem;
 	text-align: center;
 }
 
 html {
-	background-color: #fefefe;
+	background-color: #111015;
 	width: 100vw;
 	height: 100vh;
 }
