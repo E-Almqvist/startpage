@@ -9,7 +9,7 @@
 }
 
 html {
-	background-color: #111015;
+	background-color: #0c1115;
 	width: 100vw;
 	height: 100vh;
 }
@@ -40,11 +40,6 @@ a:hover {
 
 article { 
 	padding: 5px; 
-}
-
-article, .border {
-	border: 2px solid #fefefe0f;
-	background-color: #fefefe05;
 }
 
 .container {
